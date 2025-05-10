@@ -1,9 +1,11 @@
-let numero = -5;
+let numero =-5;
 
 if (numero > 0) {
-  console.log("O número é positivo.");
+  let numero1 = "O número:" + numero + " positivo.";
+  console.log(numero1);
 } else {
-  console.log("O número é negativo.");
+  let numero1 = "O número:" + numero + " negativo.";
+  console.log(numero1);
 }
 
 let numero2 = 8;
@@ -13,3 +15,4 @@ if (numero2 % 2 === 0) {
 } else {
   console.log("O número é ímpar.");
 }
+
